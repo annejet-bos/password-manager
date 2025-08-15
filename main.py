@@ -111,7 +111,7 @@ email_label.grid(column = 0, row = 2)
 
 #Email input
 email_input = Entry()
-email_input.insert(END, 'annejet.bos@veneficus.nl')
+email_input.insert(END, EMAIL)
 email_input.grid(column = 1, row = 2, columnspan = 2, sticky = 'EW')
 
 #Password label
